@@ -1,6 +1,6 @@
 "use client";
 
-import { Layout, Compass, List, BarChart } from "lucide-react";
+import { Layout, Compass, List, BarChart, PlusCircle, FileQuestion, ClipboardList } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import SidebarItem from "./sidebar-item";
@@ -9,13 +9,23 @@ const guestRoutes = [
     {
         icon: Layout,
         label: "Dashboard",
-        href: "/",
+        href: "/dashboard",
     },
     {
         icon: Compass,
         label: "Browse",
         href: "/search",
     },
+    {
+        icon: FileQuestion,
+        label: "Quizzes",
+        href: "/attemptquiz",
+    },
+    {
+        icon: ClipboardList,
+        label: "Assignments",
+        href: "/submitassignment",
+    }
 ];
 
 const teacherRoutes = [
@@ -29,6 +39,16 @@ const teacherRoutes = [
         label: "Analytics",
         href: "/teacher/analytics",
     },
+    {
+        icon: PlusCircle,
+        label: "Create Assignment",
+        href: "/teacher/createassignment",
+    },
+    {
+        icon: PlusCircle,
+        label: "Create Quiz",
+        href: "/teacher/createquiz",
+    }
 ];
 
 const SidebarRoutes = () => {
