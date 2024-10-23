@@ -9,7 +9,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link href="/dashboard" className="flex-shrink-0 flex items-center">
-              <span className="text-xl font-bold">EduPlatform</span>
+              <span className="text-xl font-bold">Learnify</span>
             </Link>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <NavItems />

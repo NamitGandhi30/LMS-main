@@ -62,7 +62,9 @@ export const CourseSidebar = async ({
                         courseId={course.id}
                         isLocked={!chapter.isFree && !purchase}
                     />
+
                 ))}
+                
             </div>
         </div>
     );
