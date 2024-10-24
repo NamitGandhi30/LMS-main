@@ -1,9 +1,11 @@
 import Navbar from "./_components/navbar";
 import Sidebar from "./_components/sidebar";
+import FloatingChatbot from "@/components/DNT/Chatbot";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className="h-full">
+            <FloatingChatbot />
             <div className="h-[80px] md:pl-56 fixed inset-y-0 w-full z-50">
                 <Navbar />
             </div>
