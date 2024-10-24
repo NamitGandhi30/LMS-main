@@ -19,7 +19,7 @@ const guestRoutes = [
     {
         icon: FileQuestion,
         label: "Quizzes",
-        href: "/attemptquiz",
+        href: "/view-quiz",
     },
     {
         icon: ClipboardList,
@@ -48,6 +48,11 @@ const teacherRoutes = [
         icon: PlusCircle,
         label: "Create Quiz",
         href: "/teacher/createquiz",
+    },
+    {
+        icon: PlusCircle,
+        label: "Go live",
+        href: "/meet",
     }
 ];
 

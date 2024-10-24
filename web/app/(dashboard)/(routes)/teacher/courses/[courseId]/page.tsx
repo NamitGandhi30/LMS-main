@@ -3,7 +3,7 @@ import { auth } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
 import {
-    CircleDollarSign,
+    IndianRupeeIcon,
     File,
     LayoutDashboard,
     ListChecks,
@@ -139,7 +139,7 @@ const CourseIdPage = async ({ params }: { params: { courseId: string } }) => {
                         </div>
                         <div>
                             <div className="flex items-center gap-x-2">
-                                <IconBadge icon={CircleDollarSign} />
+                                <IconBadge icon={IndianRupeeIcon} />
                                 <h2 className="text-xl">Sell your course</h2>
                             </div>
                             <PriceForm

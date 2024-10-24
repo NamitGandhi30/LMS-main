@@ -24,7 +24,7 @@ const MeetingSetup = ({ setIsSetupComplete }: { setIsSetupComplete: (value: bool
     }, [isMicCamEnabled, call?.camera, call?.microphone])
 
     return (
-        <div className='h-screen flex w-full flex-col items-center justify-center gap-3 text-white'>
+        <div className='h-screen flex w-full flex-col items-center justify-center gap-3 text-black'>
             <h1 className="text-2xl font-bold">
                 Setup
             </h1>
