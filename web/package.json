@@ -12,7 +12,7 @@
     "dependencies": {
         "@clerk/nextjs": "^4.25.3",
         "@hello-pangea/dnd": "^16.3.0",
-        "@hookform/resolvers": "^3.3.1",
+        "@hookform/resolvers": "^3.9.0",
         "@mux/mux-node": "^7.3.2",
         "@mux/mux-player-react": "^2.2.0",
         "@prisma/client": "^5.21.1",
@@ -49,16 +49,17 @@
         "react-day-picker": "^8.10.1",
         "react-dom": "^18",
         "react-dropzone": "^14.2.3",
-        "react-hook-form": "^7.47.0",
+        "react-hook-form": "^7.53.1",
         "react-hot-toast": "^2.4.1",
         "react-icons": "^4.11.0",
         "react-quill": "^2.0.0",
         "recharts": "^2.9.2",
+        "sonner": "^1.5.0",
         "stripe": "^13.6.0",
         "tailwind-merge": "^1.14.0",
         "tailwindcss-animate": "^1.0.7",
         "uploadthing": "^5.7.4",
-        "zod": "^3.22.4",
+        "zod": "^3.23.8",
         "zustand": "^4.4.6"
     },
     "devDependencies": {
